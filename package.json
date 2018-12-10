@@ -1,13 +1,13 @@
 {
-  "name": "himawari-bg",
+  "name": "himawari-bg-mac",
   "description": "Set the latest image from Himawari 8 as your desktop background.",
-  "version": "1.0.1",
-  "author": "Nate Goldman <ungoldman@gmail.com>",
+  "version": "1.6.0",
+  "author": "Vincent King <alfa.king+git@gmail.com>",
   "bin": {
-    "himawari-bg": "./cli.js"
+    "himawari-bg-mac": "./cli.js"
   },
   "bugs": {
-    "url": "https://github.com/ungoldman/himawari-bg/issues"
+    "url": "https://github.com/vkingw/himawari-bg/pulls"
   },
   "dependencies": {
     "cliclopts": "^1.1.1",
@@ -16,7 +16,7 @@
     "mkdirp": "^0.5.1",
     "progress": "^1.1.8",
     "untildify": "^2.1.0",
-    "wallpaper": "^2.1.0"
+    "wallpaper": "^4.1.0"
   },
   "devDependencies": {
     "gh-pages": "^0.11.0",
@@ -26,7 +26,7 @@
     "snazzy": "^5.0.0",
     "standard": "^8.1.0"
   },
-  "homepage": "https://github.com/ungoldman/himawari-bg",
+  "homepage": "https://github.com/vkingw/himawari-bg",
   "keywords": [
     "background",
     "desktop",
@@ -40,7 +40,7 @@
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/ungoldman/himawari-bg.git"
+    "url": "https://github.com/vkingw/himawari-bg.git"
   },
   "scripts": {
     "gh-pages": "npm run site && gh-pages -d site",

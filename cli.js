@@ -44,6 +44,12 @@ var allowedOptions = [
     boolean: true
   },
   {
+    name: 'screen',
+    abbr: 's',
+    help: 'Only for macOS, all for all screen ,main for main screen',
+    default: 'main'
+  },
+  {
     name: 'help',
     abbr: 'h',
     help: 'Show help.',
@@ -61,13 +67,13 @@ if (argv.version) {
 
 if (argv.help) {
   console.log()
-  console.log('Usage: himawari-bg [options]')
+  console.log('Usage: himawari-bg-mac [options]')
   console.log()
   opts.print()
   console.log()
   console.log('report an issue: ' + pkg.bugs.url)
   console.log()
-  console.log('himawari-bg@%s %s', pkg.version, __dirname)
+  console.log('himawari-bg-mac@%s %s', pkg.version, __dirname)
   process.exit()
 }
 
